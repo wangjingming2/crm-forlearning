@@ -5,4 +5,4 @@ on: [push]
 jobs:
   myjob:
     steps:
-      - run: curl -d "" wangjingming.work/job/crm/build?touken=testcrm
+      - run: curl -k -X POST -v -u luckydog:yewufengyuyewuqing https://wangjingming.work/job/crm/build?touken=testcrm
