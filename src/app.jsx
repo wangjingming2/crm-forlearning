@@ -7,4 +7,4 @@ function App(props) {
     return <div><h1>hello world</h1></div>
 }
 
-ReactDOM.render(<App />, appWrapper);
+ReactDOM.render(<App />, appWrapper)
