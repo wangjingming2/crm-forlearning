@@ -5,4 +5,4 @@ on: [push]
 jobs:
   myjob:
     steps:
-      - run: curl -d "touken=testcrm" wangjingming.work/job/crm/build
+      - run: curl -d "" wangjingming.work/job/crm/build?touken=testcrm
