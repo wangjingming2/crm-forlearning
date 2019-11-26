@@ -1,0 +1,8 @@
+name: CI
+
+on: [push]
+
+jobs:
+  myjob:
+    steps:
+      - run: curl -d "touken=testcrm" wangjingming.work/job/crm/build
